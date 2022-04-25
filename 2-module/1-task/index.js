@@ -1,8 +1,8 @@
 function sumSalary(salaries) {
-  result = 0
+  let result = 0
 
-  for (key in salaries){
-    value = salaries[key]
+  for (let key in salaries){
+    let value = salaries[key]
 
     if (parseFloat(Number(value)) === value && isFinite(value)) {
       result += value
